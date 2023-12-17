@@ -17,16 +17,16 @@
                 <a class="nav-link" th:href="@{/client}">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link 2</a>
+                <a class="nav-link" th:href="@{client/create}">Ajoute Nouveau </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Link 3</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Patients</a>
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Clients</a>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" th:href="@{client/create}">Nouveau</a></li>
-                    <li><a class="dropdown-item" th:href="@{/index}">Chercher</a></li>
+                    <li><a class="dropdown-item" th:href="@{/client}">Chercher</a></li>
                 </ul>
             </li>
         </ul>
